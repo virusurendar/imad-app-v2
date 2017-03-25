@@ -24,7 +24,7 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/counter', function (req, res) {
   var counter=0;
   counter+=1;
-  res.send(counter.toString()());
+  res.send(counter.toString());
 });
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
