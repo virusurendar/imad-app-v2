@@ -2,6 +2,7 @@ function sname(){
     console.log("hi there");
     return 10;
 }
+
 function printNumber(){         
     document.getElementById("number").innerHTML=sname();
         }
