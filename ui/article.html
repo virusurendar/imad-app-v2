@@ -2,8 +2,10 @@
 <head>
 	<title>Home Page</title>
 	<link type="text/css" rel="stylesheet" href="https://cloud.imad.hasura.io/code/files/ui%2Fstyle.css" media="all" />
-	<style> 
-	</style>
+	<style> </style>
+	<script>
+	    <src="https://cloud.imad.hasura.io/code/files/ui%2Fmain.js">
+	</script>
 </head>
 <body>
 	<table border="1" align="center">
@@ -26,11 +28,11 @@
 					<form name="loginForm" action="Details.html">
 						<table cellpadding="5">
 							<tr>
-								<td align="right">User Name</td>
+								<td align="right" id="user">User Name</td>
 								<td><input type="text"/></td>
 							</tr>
 							<tr>
-								<td align="right">Password</td>
+								<td align="right" id="password">Password</td>
 								<td><input type="password"/></td>
 							</tr>
 							<tr>
@@ -38,7 +40,7 @@
 							    <td><input type="date"/></td>
 							</tr>
 							<tr>
-								<td colspan="2" align="center"><input type="submit" value="Login"></td>
+								<td colspan="2" align="center"><input type="submit" value="Login" onclick="javascript:validate()"/></td>
 							</tr>
 						</table>
 					</form>
