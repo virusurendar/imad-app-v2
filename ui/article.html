@@ -1,44 +1,60 @@
-
-<!DOCTYPE html>
-
 <html>
-	<head>
-		<meta name="keywords" content="Online, Shopping" />
-		<title>Infy Shopping</title>
-		<style>
-		 body{
-		     background-color=red;
-		 }
-		</style>
-	</head>
-
-	<body>
-		<header>
-			<h1>Sign Up!</h1>
-		</header>
-		
-		<article >
-		    <div class ='main'>
-			<form action="https://cloud.imad.hasura.io/code/files/ui%2Fmain.js" method="get">
-				Username : &nbsp; &nbsp; <input type="text" > <br/>
-				Password : &nbsp; &nbsp; <input type="password" > <br/>
-				Gender: &nbsp; &nbsp; Male <input type="radio" checked="checked"> &nbsp; &nbsp; Female <input type="radio"> <br/>
-				DOB : &nbsp; &nbsp; <input type="date"><br/>
-				<input type="submit" value="register">&nbsp; &nbsp;<input type="reset">
-				
-			</form>
-			</div>
-			<!-- Add form here-->
-			<br/> <br/> <br/> <br/> 
-		</article>     
-    
-		<footer>                   	 
-			<nav> About Us | Privacy Policy | Contact Us | FAQ | Terms & Conditions </nav>
-			Copyright &copy; 2016 | ETA UI and MarkUp  
-		</footer> 
-
-		<aside>
-			Like and Connect with us FB Twitter g+
-		</aside>   
-	</body>
+<head>
+	<title>Home Page</title>
+	<style> body { background-color: grey;}
+	h3{background-color:black;
+	    color: white;
+	}
+	tr{
+	}
+	</style>
+</head>
+<body>
+	<table border="1" align="center">
+        <tr>
+            <td width="500px" height="100px"><h2>Global Bank</h2></td>     
+        </tr>
+    </table>
+	<table border="1" align="center" cellpadding="2">
+		<tr><td width="700px" >
+			<section>
+				<h3>Welcome to Global Bank Home Page !</h3><br>
+				<p><em>Global Bank</em> is a international bank which has branches in various cities of various country.</p>
+			</section>	
+			<p>
+				This application automates the banking process.Using this application the admin can easily create new accounts and the customers can login to view their account details.
+			</p><br/>
+			<table align="center" border="4 solid" bordercolor="#8598CC">
+				<tr><td>
+					<h4 align="center">Login</h4>
+					<form name="loginForm" action="Details.html">
+						<table cellpadding="5">
+							<tr>
+								<td align="right">User Name</td>
+								<td><input type="text"/></td>
+							</tr>
+							<tr>
+								<td align="right">Password</td>
+								<td><input type="password"/></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><input type="submit" value="Login"></td>
+							</tr>
+						</table>
+					</form>
+				</td></tr>
+			</table>                   
+			<p>Submit online application for new account here <a href="signUp.html">Create Account</a></p>
+		</td></tr>
+	</table>
+	<table border="1" align="center">
+        <tr>
+            <td  width="800px" height="30px">
+                <footer>
+                    <h2>&copy; Global Bank</h2>
+                </footer>
+            </td>
+        </tr>
+    </table>
+</body>
 </html>
