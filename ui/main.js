@@ -1,5 +1,5 @@
 
-function validate()
+var validate = function ()
 {
     if(   document.getElementById("user").value == "swomiya"
        && document.getElementById("password").value == "openit" )
