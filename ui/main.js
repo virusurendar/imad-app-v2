@@ -5,11 +5,11 @@ function validate()
        && document.getElementById("password").value == "openit" )
     {
         alert( "validation succeeded" );
-        location.href="run.html";
+        //location.href="run.html";
     }
     else
     {
         alert( "validation failed" );
-        location.href="fail.html";
+        //location.href="fail.html";
     }
 }
