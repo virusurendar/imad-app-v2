@@ -3,9 +3,9 @@ function sname(){
     return 10;
 }
 
-function printNumber(){         
+var printNumber= function(){         
     document.getElementById("number").innerHTML=sname();
-        }
+    }
 
 var validate = function ()
 {
