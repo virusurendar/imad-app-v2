@@ -11,8 +11,9 @@ body {
 }
 
 #para1 {
+    font-family: sans-serif;
 	margin: 2px;
-    border: 25px solid black;
+    border: 25px solid navy;
     padding:50px;
     background-color:grey;
     text-align: center;
