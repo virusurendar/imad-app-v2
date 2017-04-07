@@ -1,11 +1,11 @@
-function sname(){
+var sname=function(){
     console.log("hi there");
     return 10;
-}
+};
 
 var printNumber= function(){         
     document.getElementById("number").innerHTML=sname();
-    }
+    };
 
 var validate = function ()
 {
@@ -22,4 +22,4 @@ var validate = function ()
         console.log('Loaded!');
         //location.href="fail.html";
     }
-}
+};
